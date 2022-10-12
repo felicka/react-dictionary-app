@@ -1,4 +1,4 @@
-.App-header{
+.App-header {
   margin: 30px 0;
 }
 
@@ -6,4 +6,19 @@
   max-width: 50px;
   display: block;
   margin: 0 auto;
+}
+
+.App footer {
+  text-align: center;
+  font-size: 11px;
+  margin: 30px 0;
+}
+
+.App .link {
+  color: wheat;
+  text-decoration: none;
+}
+.App .link:hover {
+  text-decoration: none;
+  color: brown;
 }
