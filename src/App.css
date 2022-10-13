@@ -1,27 +1,39 @@
 .App {
-  background: lightgrey;
+  background-image: url("./background.jpg");
+  padding: 20px;
 }
+
 .App-header {
-  margin: 30px 0;
+  margin: 0;
 }
 
 .App-logo {
-  max-width: 50px;
+  max-width: 70px;
   display: block;
-  margin: 0 auto;
+  margin: auto;
+  border-radius: 100px;
+  border: 1px solid black;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.7);
 }
 
 .App footer {
   text-align: center;
   font-size: 11px;
-  margin: 30px 0;
+  font-family: monospace;
+  background-color: white;
+  border-radius: 100px;
+  padding: 5px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.7);
+  margin: 20px auto;
+  max-width: 600px;
 }
 
 .App .link {
-  color: wheat;
+  color: palevioletred;
   text-decoration: none;
 }
 .App .link:hover {
   text-decoration: none;
-  color: brown;
+  background: pink;
+  color: gray;
 }

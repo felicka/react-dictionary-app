@@ -1,4 +1,4 @@
-import logo from "./felicia-logo.png";
+import logo from "./dictionary-logo.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -10,7 +10,7 @@ export default function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
-          <Dictionary defaultKeyword="hello" />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer>
           React Dictionary App Coded by Felicia on{" "}

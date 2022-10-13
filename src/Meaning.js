@@ -20,6 +20,3 @@ export default function Meaning(props) {
   );
 }
 
-//meaning.definitions[0].definition;
-//Meaning:{props.meaning.definitions[0].definition}
-//Example:{props.meaning.definitions[0].example}
