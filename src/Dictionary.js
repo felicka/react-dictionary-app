@@ -8,10 +8,7 @@ export default function Dictionary() {
   let [results, setResults] = useState(null);
 
   function handleResponse(response) {
-    console.log(response.data[0]);
     setResults(response.data[0]);
-
-    //.meanings[0].definitions[0].definition);
   }
 
   function search(event) {
@@ -29,10 +26,17 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <h1>Dictionary</h1>
-      <form onSubmit={search}>
-        <input type="search" onChange={handleKeywordChange} autoFocus={true} />
-      </form>
+      <div className="section">
+        {" "}
+        <h1>Dictionary</h1>
+        <form onSubmit={search}>
+          <input
+            type="search"
+            onChange={handleKeywordChange}
+            autoFocus={true}
+          />
+        </form>
+      </div>
 
       <Results results={results} />
     </div>
