@@ -1,12 +1,14 @@
-.Dictionary {
+.Dictionary  {
   text-align: center;
 }
 
 .Dictionary h1 {
   color: black;
   padding: 10px;
-  }
+}
 
-  .Dictionary form{
-    padding: 5px;
-  }
+.Dictionary form {
+  padding: 5px;
+}
+
+
