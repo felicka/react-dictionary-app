@@ -26,7 +26,7 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <div className="section">
+      <section className="search">
         {" "}
         <h1>Dictionary</h1>
         <form onSubmit={search}>
@@ -36,7 +36,8 @@ export default function Dictionary() {
             autoFocus={true}
           />
         </form>
-      </div>
+        <div className="hint">What word are you looking for?</div>
+      </section>
 
       <Results results={results} />
     </div>
