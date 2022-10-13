@@ -10,7 +10,7 @@ export default function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="hello" />
         </main>
         <footer>
           React Dictionary App Coded by Felicia on{" "}
