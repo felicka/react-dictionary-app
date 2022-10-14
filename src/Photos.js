@@ -1,5 +1,6 @@
 import React from "react";
 import "./Photos.css";
+import { MagnifyingGlass } from "react-loader-spinner";
 
 export default function Photos(props) {
   if (props.photos) {
@@ -23,9 +24,16 @@ export default function Photos(props) {
       </section>
     );
   } else {
-    return "hello";
+    return (
+      <div className="loader text-center">
+        <MagnifyingGlass
+          height={80}
+          width={80}
+          color="black"
+          glassColor="lightgray"
+        />
+      </div>
+    );
   }
 }
 
-//https://www.pexels.com/api
-// api key 563492ad6f91700001000001866cd52401ac423a959cde29195868e5

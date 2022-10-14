@@ -20,3 +20,11 @@
   opacity: 0.8;
   font-weight: bold;
 }
+
+.Phonetic .material-symbols-outlined {
+  padding: 5px;
+  align-items: center;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
